@@ -4,6 +4,6 @@
 # Replace the following with your connection information.
 # Note that at this point Slacker only works with SQL Server authentication.
 server: localhost
-database: AdventureWorks
+database: AdventureWorks_Unittest
 user: unittest
 password: Yukon900

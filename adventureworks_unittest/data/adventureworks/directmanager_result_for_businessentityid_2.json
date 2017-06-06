@@ -1,0 +1,29 @@
+[
+  {
+    "BusinessEntityID": "1",
+    "NationalIDNumber": "295847284",
+    "LoginID": "adventure-works\\ken0",
+    "OrganizationNode": "0x",
+    "OrganizationLevel": "0",
+    "Title": null,
+    "FirstName": "Ken",
+    "MiddleName": "J",
+    "LastName": "Sánchez",
+    "Suffix": null,
+    "JobTitle": "Chief Executive Officer",
+    "PhoneNumber": "697-555-0142",
+    "PhoneNumberType": "Cell",
+    "EmailAddress": "ken0@adventure-works.com",
+    "EmailPromotion": "0",
+    "AddressLine1": "4350 Minute Dr.",
+    "AddressLine2": null,
+    "City": "Newport Hills",
+    "StateProvinceName": "Washington",
+    "PostalCode": "98006",
+    "CountryRegionName": "United States",
+    "AdditionalContactInfo": null,
+    "DepartmentID": "16",
+    "GroupName": "Executive General and Administration",
+    "DepartmentName": "Executive"
+  }
+]
