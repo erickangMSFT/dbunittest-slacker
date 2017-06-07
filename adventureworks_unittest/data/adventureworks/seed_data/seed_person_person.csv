@@ -1,3 +1,3 @@
-1,EM,0,NULL,Ken,J,Sánchez,NULL,0,NULL,"<IndividualSurvey xmlns=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/IndividualSurvey""><TotalPurchaseYTD>0</TotalPurchaseYTD></IndividualSurvey>",92c4279f-1207-48a3-8448-4636514eb7e2,2009-01-07 00:00:00.000
-2,EM,0,NULL,Terri,Lee,Duffy,NULL,1,NULL,"<IndividualSurvey xmlns=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/IndividualSurvey""><TotalPurchaseYTD>0</TotalPurchaseYTD></IndividualSurvey>",d8763459-8aa8-47cc-aff7-c9079af79033,2008-01-24 00:00:00.000
-3,EM,0,NULL,Roberto,NULL,Tamburello,NULL,0,NULL,"<IndividualSurvey xmlns=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/IndividualSurvey""><TotalPurchaseYTD>0</TotalPurchaseYTD></IndividualSurvey>",e1a2555e-0828-434b-a33b-6f38136a37de,2007-11-04 00:00:00.000
+BusinessEntityID,PersonType,NameStyle,Title,FirstName,MiddleName,LastName,Suffix,EmailPromotion,AdditionalContactInfo,Demographics,rowguid,ModifiedDate
+1,EM,0,,Ken,J,Sánchez,,0,,,92c4279f-1207-48a3-8448-4636514eb7e2,2009-01-07 00:00:00.000
+2,EM,0,,Terri,Lee,Duffy,,1,,,d8763459-8aa8-47cc-aff7-c9079af79033,2008-01-24 00:00:00.000

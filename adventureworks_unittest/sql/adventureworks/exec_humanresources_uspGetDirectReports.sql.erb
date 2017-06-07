@@ -4,4 +4,3 @@ declare @BusinessEntityID int;
 set @BusinessEntityID = <%= options [:id]%>;
 
 exec HumanResources.uspGetDirectReports @BusinessEntityID
-GO
