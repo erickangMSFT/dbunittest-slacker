@@ -18,15 +18,20 @@ ruby dk.rb init
 ruby dk.rb install
 ```
 
-Install slacker
+## Install slacker
 
 ```bash
 gem install slacker
 ```
 
-
-## On Visual Studio 
+## Running Unittest On Visual Studio 
 * nuget install 
     * xunit.runner.visualstudio
     * xunit
     * slacker runner
+
+```bash
+git clone 'this project'
+cd ${cloned_directory}/adventureworks_unittest
+slacker
+```
