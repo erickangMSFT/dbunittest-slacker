@@ -1,5 +1,5 @@
 # Method "describe" opens up an example group.
-describe 'AdventureWorks Orchart' do
+describe 'uspGetDirectReports Tests' do
 
  # Test for getting direct reports and employee detail.
   it ' Testing uspGetDirectReports proc with @businessentityid = 1' do
