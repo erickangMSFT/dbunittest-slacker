@@ -25,3 +25,8 @@ gem install slacker
 ```
 
 
+## On Visual Studio 
+* nuget install 
+    * xunit.runner.visualstudio
+    * xunit
+    * slacker runner
