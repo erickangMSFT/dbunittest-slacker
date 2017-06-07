@@ -1,8 +1,7 @@
 # Method "describe" opens up an example group.
-describe 'AdventureWorks Orchart' do
-
- # Test for getting direct reports and employee detail.
-  it ' Testing uspGetDirectReports proc with @businessentityid = 1' do
+describe 'AdventureWorks Orchart Procs: HierarchyID issue' do
+  # Test for getting direct manager hierachy and employee detail.
+  it 'Testing uspGetDirectManager with @businessentityid = 2' do
     # Seed unittest database in the complex FK relationship.
     # See data/adventureworks/seed_data/_seed_sequence.md for more detail of the data seeding sequence.
     query("SET IDENTITY_INSERT Person.BusinessEntity ON;")
@@ -50,7 +49,8 @@ describe 'AdventureWorks Orchart' do
     load_csv('adventureworks/seed_data/seed_person_businessentityaddress.csv', 'Person.BusinessEntityAddress')
     load_csv('adventureworks/seed_data/seed_humanresources_employeedepartmenthistory.csv', 'HumanResources.EmployeeDepartmentHistory')
 
-    # See files "sql/adventureworks/exec_humanresources_uspGetDirectReports.sql.erb" and "data/adventureworks/uspGetDirectReports_expected_result_for_businessentityid_2.csv".
-    expect(sql.adventureworks.exec_humanresources_uspGetDirectReports(:id => 1)).to match('adventureworks/uspGetDirectReports_expected_result_for_businessentityid_1.csv')
+    
+    # See files "sql/adventureworks/exec_humanresources_uspGetDirectManager.sql.erb" and "data/adventureworks/uspGetDirectManager_expected_result_for_businessentityid_2.csv".
+    expect(sql.adventureworks.exec_humanresources_uspGetDirectManager(:id => 2)).to match('adventureworks/uspGetDirectManager_expected_result_for_businessentityid_2.csv')
   end
 end

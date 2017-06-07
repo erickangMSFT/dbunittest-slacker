@@ -1,7 +1,0 @@
-declare @table_name sysname;
-
--- set @table_name = <%= options[:x]%>;
-
-set @table_name = N'Person.BusinessEntity';
-
-set identity_insert @table_name on;
