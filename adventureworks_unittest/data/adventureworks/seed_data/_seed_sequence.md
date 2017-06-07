@@ -15,3 +15,4 @@ Unittest data seeding sequence based on FK reference.
 * addresstype
 * addressrename
 * businessentityaddress
+* employeedepartmenthistory
