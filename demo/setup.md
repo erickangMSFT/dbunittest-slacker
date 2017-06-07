@@ -116,16 +116,19 @@ namespace DatabaseUnittest
 slacker_new TestSpecs
 ```
 
-* Add following to TestSpecs project in Visual Studio from TestSpecs folder
+## Git Clone Sample
 
+* git clone https://github.com/erickangMSFT/dbunittest-slacker
+
+* Copy following from git repository to the TestSpec folder in Visual Studio and add to TestSpec project.
     * data
     * lib
     * spec
     * sql
     * database.yml
 
-## Copy Sample
+* Open database.yml and update the server, database and sql login properties to make a connection. Consider security protection with database.yml file and its connection properties.
 
-* git clone 
+## Run Tests
 
-
+* In Test Explorer in VS, Run All and see all tests are enabled and executed successfully.
