@@ -18,10 +18,15 @@ ruby dk.rb init
 ruby dk.rb install
 ```
 
-Install slacker
+## Install slacker
 
 ```bash
 gem install slacker
 ```
 
+## Running Unittest
 
+```bash
+cd adventureworks_unittest
+slacker
+```
