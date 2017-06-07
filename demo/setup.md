@@ -27,6 +27,6 @@ gem install slacker
 ## Running Unittest
 
 ```bash
-cd adventureworks_unittest
+cd ${cloned_directory}/adventureworks_unittest
 slacker
 ```
