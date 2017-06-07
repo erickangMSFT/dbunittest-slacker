@@ -116,4 +116,16 @@ namespace DatabaseUnittest
 slacker_new TestSpecs
 ```
 
+* Add following to TestSpecs project in Visual Studio from TestSpecs folder
+
+    * data
+    * lib
+    * spec
+    * sql
+    * database.yml
+
+## Copy Sample
+
+* git clone 
+
 
