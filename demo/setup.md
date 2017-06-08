@@ -130,6 +130,8 @@ slacker_new TestSpecs
 * git clone https://github.com/erickangMSFT/dbunittest-slacker
 
 * Copy following from git repository to the TestSpec folder in Visual Studio and add to TestSpec project.
+* Add following to TestSpecs project in Visual Studio from TestSpecs folder
+
     * data
     * lib
     * spec
