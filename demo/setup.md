@@ -6,7 +6,16 @@ Slacker requires ruby and ruby devkit as a pre-req for the build and unittest ag
 
 Install [runby 2.2.6](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 
+```bash
+
+ruby_installer.exe -o "c:\Ruby" -y
+```
+
 Install [ruby DevKit](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
+
+```bash
+ruby_devkit_installer.exe -o "c:\RubyDevKit" -y
+```
 
 - It is a Self-extracting zip file. Create a folder e.g. RubyDevKit and extract devkit files. 
 - Add RubyDevKit\bin to PATH.
@@ -116,6 +125,11 @@ namespace DatabaseUnittest
 slacker_new TestSpecs
 ```
 
+## Git Clone Sample
+
+* git clone https://github.com/erickangMSFT/dbunittest-slacker
+
+* Copy following from git repository to the TestSpec folder in Visual Studio and add to TestSpec project.
 * Add following to TestSpecs project in Visual Studio from TestSpecs folder
 
     * data
@@ -124,8 +138,8 @@ slacker_new TestSpecs
     * sql
     * database.yml
 
-## Copy Sample
+* Open database.yml and update the server, database and sql login properties to make a connection. Consider security protection with database.yml file and its connection properties.
 
-* git clone 
+## Run Tests
 
-
+* In Test Explorer in VS, Run All and see all tests are enabled and executed successfully.
