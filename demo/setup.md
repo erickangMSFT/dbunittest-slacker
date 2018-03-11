@@ -4,7 +4,7 @@ Slacker requires ruby and ruby devkit as a pre-req for the build and unittest ag
 
 ## Ruby installation 
 
-Install [runby 2.2.6](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
+Install [ruby 2.2.6](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 
 ```bash
 
